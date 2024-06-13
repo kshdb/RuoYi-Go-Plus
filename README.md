@@ -26,7 +26,7 @@ database:
     maxOpen: "10"      #连接池最大打开的连接数
     maxLifetime: "30s"  #连接对象可重复使用的时间长度
     link: "mysql:root:123456@tcp(localhost:3306)/RuoYi-Go-Plus?loc=Local&parseTime=true"
-    # link: "sqlite:./resource/db/ruoyi-go-plus.db" #数据库路径根据自己的填写
+    # link: "sqlite::@file(./resource/db/ruoyi-go-plus.db)" #数据库路径根据自己的填写
 ```
 
 
