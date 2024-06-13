@@ -1,0 +1,1 @@
+import{aW as a,aI as d,O as u}from"./entry/index-BbJQUQ84-1718268303552.js";function w(i,o={}){const{wait:s=150,immediate:r}=o;let e=()=>{i()};e=u(e,s);const n=()=>{r&&e(),window.addEventListener("resize",e)},t=()=>{window.removeEventListener("resize",e)};return a(()=>{n()}),d(()=>{t()}),{start:n,stop:t}}export{w as u};

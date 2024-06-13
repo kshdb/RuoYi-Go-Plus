@@ -1,0 +1,1 @@
+import{aA as e}from"./entry/index-BbJQUQ84-1718268303552.js";function r(s){return e.get({url:"/resource/oss/list",params:s})}function t(s){return e.get({url:"/resource/oss/download/"+s,responseType:"blob",timeout:30*1e3},{isTransformResponse:!1})}function n(s){return e.deleteWithMsg({url:"/resource/oss/"+s})}export{r as a,n as b,t as o};

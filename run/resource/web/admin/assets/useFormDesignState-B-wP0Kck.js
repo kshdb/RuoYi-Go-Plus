@@ -1,1 +1,0 @@
-import{e as o}from"./vue-Bw3NQgLF.js";function n(){const e=o("formConfig"),t=o("formDesignMethods");return{formConfig:e,formDesignMethods:t}}function s(){const e=o("formModel"),t=o("setFormModelMethod");return{formModel:e,setFormModel:t}}export{n as a,s as u};

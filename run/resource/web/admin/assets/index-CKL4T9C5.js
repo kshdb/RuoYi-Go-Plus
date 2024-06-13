@@ -1,0 +1,1 @@
+import{l as e}from"./entry/index-BbJQUQ84-1718268303552.js";import{Z as r,_ as o}from"./vue-Cw15aJ-2.js";import"./antd-DMGzOvrA.js";const t={};function c(n,s){return r(),o("div",null,"dsdsa")}const f=e(t,[["render",c]]);export{f as default};

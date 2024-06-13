@@ -1,0 +1,1 @@
+import{aA as n}from"./entry/index-BbJQUQ84-1718268303552.js";function e(){return n.get({url:"/monitor/online"})}function r(o){return n.get({url:"/monitor/online/list",params:o})}function i(o){return n.delete({url:"/monitor/online/"+o})}function u(o){return n.post({url:"/monitor/online/"+o})}export{r as a,i as b,u as f,e as o};

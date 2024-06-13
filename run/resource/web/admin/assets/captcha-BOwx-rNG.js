@@ -1,0 +1,1 @@
+import{aA as e}from"./entry/index-BbJQUQ84-1718268303552.js";function a(r){return e.get({url:"/resource/sms/code",params:{phonenumber:r}})}function o(){return e.get({url:"/auth/code"},{ignoreCancelToken:!0})}export{o as c,a as s};
