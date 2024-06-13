@@ -1,0 +1,1 @@
+import{aw as e}from"./entry/index-CMepwc5X-1716790511191.js";function a(r){return e.get({url:"/resource/sms/code",params:{phonenumber:r}})}function o(){return e.get({url:"/auth/code"},{ignoreCancelToken:!0})}export{o as c,a as s};

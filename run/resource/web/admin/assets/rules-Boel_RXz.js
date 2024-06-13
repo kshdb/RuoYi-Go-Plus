@@ -1,0 +1,1 @@
+const t=/^1[3,4,5,6,7,8,9][0-9]{9}$/;function o(n,e=!1,s="change"){const a=[{required:e,message:"请输入正确的手机号码",pattern:t,trigger:s}],c=[{required:e,message:"请输入正确的邮箱地址",type:"email",trigger:s}];switch(n){case"phone":return a;case"email":return c}}export{o as c};

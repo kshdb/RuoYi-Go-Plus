@@ -1,0 +1,1 @@
+import{aw as n}from"./entry/index-CMepwc5X-1716790511191.js";function e(){return n.get({url:"/monitor/online"})}function r(o){return n.get({url:"/monitor/online/list",params:o})}function i(o){return n.delete({url:"/monitor/online/"+o})}function u(o){return n.post({url:"/monitor/online/"+o})}export{r as a,i as b,u as f,e as o};

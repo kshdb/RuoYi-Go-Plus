@@ -1,0 +1,1 @@
+import{aY as r,aZ as d,a_ as u}from"./entry/index-CMepwc5X-1716790511191.js";function w(i,o={}){const{wait:s=150,immediate:a}=o;let e=()=>{i()};e=u(e,s);const n=()=>{a&&e(),window.addEventListener("resize",e)},t=()=>{window.removeEventListener("resize",e)};return r(()=>{n()}),d(()=>{t()}),{start:n,stop:t}}export{w as u};
