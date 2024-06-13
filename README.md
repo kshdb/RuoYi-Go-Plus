@@ -9,6 +9,27 @@
 
 > 暂时为了配合[ruoyi-plus-vben]([ruoyi-plus-vben](https://gitee.com/dapppp/ruoyi-plus-vben))更加简单高效的测试，给不会宿主机、docker、k8s部署的小白快速上手，故采用小型数据库sqlite，免部署绿色版运行！
 
+> 如果您不想使用sqlite，也可以修改配置文件将数据类型改为mysql,mysql脚本位于doc目录内;
+
+```sh
+database:
+  logger:
+    path: "logs/sql"
+    level: "all"
+    stdout: true
+    ctxKeys: ["RequestId"]
+  default: #默认数据库
+    type: "mysql" # mysql,sqlite
+    debug: true
+    charset: "utf8mb4"
+    maxIdle: "0"       #连接池最大闲置的连接数
+    maxOpen: "10"      #连接池最大打开的连接数
+    maxLifetime: "30s"  #连接对象可重复使用的时间长度
+    link: "mysql:root:123456@tcp(localhost:3306)/ry_vben_sjzt?loc=Local&parseTime=true"
+    # link: "sqlite:./resource/db/ruoyi-go-plus.db" #数据库路径根据自己的填写
+```
+
+
 ### 1、下载程序到本地
 
 ```sh
