@@ -53,8 +53,8 @@ cd run/
 
 ```sh
 cd run/
-chmod RuoYi-Go-Plus
-./RuoYi-Go-Plus
+sudo chmod RuoYi-Go-Plus
+sudo ./RuoYi-Go-Plus
 ```
 
 #### macOS 运行
@@ -62,8 +62,8 @@ chmod RuoYi-Go-Plus
 ```sh
 cp bin/darwin_amd64/RuoYi-Go-Plus run/
 cd run/
-chmod RuoYi-Go-Plus
-./RuoYi-Go-Plus
+sudo chmod RuoYi-Go-Plus
+sudo ./RuoYi-Go-Plus
 ```
 
 
